@@ -32,3 +32,10 @@ def say_hello_world():
     now = datetime.now()
     formatted_now = now.strftime("%A, %d %B, %Y at %X")
     return {'result': formatted_now}
+
+
+
+
+
+if __name__ == '__main__':
+    server.run(host='0.0.0.0')    
